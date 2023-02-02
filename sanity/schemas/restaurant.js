@@ -21,6 +21,9 @@ export default defineType({
       name: 'image',
       title: 'Image of the Restaurant',
       type: 'image',
+      options: {
+        hotspot: true,
+      },
     }),
     defineField({
       name: 'lat',
