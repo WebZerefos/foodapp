@@ -21,4 +21,4 @@ const App = () => {
 
 export default App;
 
-// 1h video timelapse
+// 1h:12min  video timelapse
