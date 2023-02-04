@@ -65,7 +65,7 @@ const Home = () => {
         </View>
       </View>
       {/* Body */}
-      <ScrollView>
+      <ScrollView className="mb-8">
         {/* Categories */}
         <Categories />
         {/* Featured Rows */}

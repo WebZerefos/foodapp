@@ -1,4 +1,4 @@
-import {defineField, defineType} from 'sanity'
+import {defineField, defineType} from 'sanity';
 
 export default defineType({
   name: 'category',
@@ -9,7 +9,7 @@ export default defineType({
       name: 'name',
       title: 'Category Name',
       type: 'string',
-      validation: (Rule) => Rule.required(),
+      validation: Rule => Rule.required(),
     }),
     defineField({
       name: 'image',
@@ -17,4 +17,4 @@ export default defineType({
       type: 'image',
     }),
   ],
-})
+});
