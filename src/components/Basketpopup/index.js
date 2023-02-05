@@ -15,7 +15,9 @@ const BasketPopup = () => {
 
   return (
     <View className="absolute bottom-10 w-full z-50">
-      <TouchableOpacity className="bg-[#00b894] mx-5 flex-row p-4 rounded-lg items-center space-x-1">
+      <TouchableOpacity
+        onPress={() => navigation.navigate('Basket')}
+        className="bg-[#00b894] mx-5 flex-row p-4 rounded-lg items-center space-x-1">
         <View className="bg-teal-400 w-10 h-10 rounded-full items-center justify-center">
           <Text className="text-white font-extrabold text-lg py-1 px-2 ">
             {items.length}
